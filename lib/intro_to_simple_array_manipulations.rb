@@ -12,5 +12,6 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
-  array.pop(2)
+  chars_arya_killed = array.pop(2)
+  return chars_arya_killed
 end
