@@ -12,6 +12,10 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
-  chars_arya_killed = array.pop(2)
-  return chars_arya_killed
+  deleted_string = array.pop(2)
+  return deleted_string
+end
+
+def using_shift(argument)
+
 end
