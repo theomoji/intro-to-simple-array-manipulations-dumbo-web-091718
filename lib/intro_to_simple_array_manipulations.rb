@@ -16,6 +16,7 @@ def pop_with_args(array)
   return deleted_string
 end
 
-def using_shift(argument)
-
+def using_shift(array)
+  first_item = array.shift
+  return first_item
 end
